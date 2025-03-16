@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/my-webapp-1.0.0.jar app.jar
 
 # Expose the application port (9090)
-EXPOSE 9090
+EXPOSE 8080
 
 # Run the application
 CMD ["java", "-jar", "app.jar"]
